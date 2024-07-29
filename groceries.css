@@ -1,0 +1,59 @@
+body {  
+    font-family: Arial, sans-serif;
+}
+
+header, section {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+
+}
+
+header {
+    background-color: #666363;
+}
+
+section h2 {
+    background-color: #9c2121;
+    padding: 5px;
+}
+
+section h3 {
+    background-color: #e07272;
+    padding: 5px;
+}
+
+.pantry, .freezer {
+    background-color: #f5f2f2;
+    margin-inline: 10px;
+}
+
+
+.canned, .dry-goods, .veggies, .snacks {
+    margin: 10px 0;
+}
+
+.canned, .photo1 {
+    display: inline-block;
+}
+
+.dry-goods, .photo2 {
+    
+    display: inline-block;
+}
+
+
+
+.photo {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.snacks, .veggies, .photo2 {
+    padding-inline-start: 15px;
+    display: inline-block
+}
+
